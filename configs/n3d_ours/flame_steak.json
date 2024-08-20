@@ -1,0 +1,24 @@
+{
+  "resolution": 2,
+  "model": "ours",
+  "scaling_lr": 0.0015,
+  "preprocesspoints": 0,
+  "iterations": 25000,
+  "test_iteration": 25000,
+  "duration": 50,
+  "rdpip": "train_ours_full",
+  "rgbfunction": "sandwich",
+
+  "max_hashmap": 14,
+  "rvq_size_geo": 256,
+  "rvq_num_geo": 4,
+  "rvq_size_temp": 256,
+  "rvq_num_temp": 3,
+
+  "mask_prune_iter": 1000,
+  "rvq_iter":24000,
+  "mask_lr": 0.01,
+  "net_lr": 0.001,
+  "net_lr_step": [3000, 6000, 9000, 12000, 18000, 21000],
+  "lambda_mask": 0.0005
+}

@@ -1,0 +1,12 @@
+{
+  "resolution": 2,
+  "model": "stg",
+  "scaling_lr": 0.003,
+  "preprocesspoints": 0,
+  "save_iterations": [7000, 10000, 12000, 25000, 30000],
+  "test_iteration": 12000,
+  "densify": 2,
+  "duration": 50,
+  "rdpip": "train_stg_full",
+  "rgbfunction": "sandwich"
+}
